@@ -1,0 +1,7 @@
+- Work for Plex Client both from local and web version
+- Replace your local URL in `// @match        http://192.168.1.6:32400/*` to your URL
+- This is use with 100% browser zoom and and the biggest zoom in Plex
+- List of current changes
+  - Make the quick access left bar smaller
+  - Move the alphabet jump bar from right of the scroll bar to the top
+  - Make the metadata model bigger 
