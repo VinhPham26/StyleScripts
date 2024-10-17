@@ -55,6 +55,17 @@
             .edit-metadata-modal .selectize-dropdown-content {
                 max-height: 300px !important;
             }
+
+            /* Poster into 2 lines */
+            a[class^='MetadataPosterCardTitle-singleLineTitle'], a[class*=' MetadataPosterCardTitle-singleLineTitle']{
+                height: 40px !important;
+                white-space: normal !important;
+                line-height: 1.5 !important;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 2;
+                padding-top: 2px;
+            }
         `;
         document.head.appendChild(style);
     }
